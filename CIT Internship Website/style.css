@@ -1,0 +1,541 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, li, p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+h2{
+	text-align:center;
+	color: #013289;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: white;
+}
+
+
+/*Gray, J. (2015, July 3). CSS / HTML Navigation and Logo on same line. Retrieved April 1, 2019, from https://stackoverflow.com/questions/30624709/css-html-navigation-and-logo-on-same-line*/
+
+/*W3 Schools. (n.d.). CSS Navigation Bar. Retrieved April 1, 2019, from https://www.w3schools.com/css/css_navbar.asp*/
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+nav li{
+	display: inline;
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 14px 16px;
+	float: right;
+	transition: 0.5s ease;
+}
+
+nav li a:after{
+	clear: both;
+}
+
+
+nav li a:hover{
+	color: #013289;
+}
+
+#pgname{
+	float:left;
+	padding-left: 30px;
+	font-size: 14pt;
+}
+
+#pgname:after{
+	clear: both;
+}
+
+
+#citlogo{
+	margin-top: 5px;
+	float: left;
+}
+
+/*How TO - Position Text Over an Image. (n.d.). Retrieved April 22, 2019, from https://www.w3schools.com/howto/howto_css_image_text.asp*/
+
+.search h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40pt;
+	
+}
+
+.search button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*How TO - Three Column Layout. (n.d.). Retrieved April 22, 2019, from https://www.w3schools.com/howto/howto_css_three_columns.asp*/
+.column{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+/*How TO - Two Column Layout. (n.d.). Retrieved April 22, 2019, from https://www.w3schools.com/howto/howto_css_two_columns.asp*/
+.column2{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.paragraph{
+	text-align: center;
+        padding: 12px;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.title{
+	text-align: center;
+	color: #013289;
+}
+
+
+/*W3 Schools. (n.d.). How TO - Text Blocks Over Image. Retrieved April 22, 2019, from https://www.w3schools.com/howto/howto_css_image_text_blocks.asp*/
+.mission{
+	position: relative;
+}
+
+.mission img{
+	position: absolute;
+}
+
+.mission .statement{
+	position: absolute;
+	margin: 200px 10%;
+	text-align: center;
+	width: 80%;
+}
+
+.statement{
+	text-align: center;
+	width: 90%;
+	background-color: rgba(255,251,251,0.9);
+	height: 300px;	
+}
+
+.statement p{
+	font-size: 14pt
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+
+button{
+	background-color: #013289;
+	padding: 16px 33px;
+	font-size: 14pt;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	display: inline-block;
+	border: none;
+	opacity: 1;
+        color: white;
+}
+
+button:hover{
+	opacity: 0.9;
+}
+
+.space{
+	height: 700px;
+}
+
+.loginform{
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	border-color: gray;
+	border-width: 1px;
+}
+
+.banner h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40pt;
+	color: white;
+}
+
+.sidenav{
+	margin-left: 10px;
+}
+
+.sidenav ul{
+	display: block;
+	float: left;
+	list-style-type: none;
+	background-color: #e5e5e5;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav ul li a{
+	display: block;
+	color: black;
+	width: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.sidenav ul li a:hover{
+	background-color: #013289;
+	color: white;
+}
+
+.paragraphs{
+	margin-left: 180px;
+	width: 80%;
+}
+
+#download{
+	text-align: center;
+}
+
+.body{
+	text-align: center;
+}
+
+.profile {
+  width: 100%;
+  margin-left: 60px;
+}
+
+#experience ul>li{
+	list-style-type: none;
+}
+
+
+label{
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.register {
+	position: absolute;
+	margin: 50px 10%;
+	background-color: white;
+	width: 80%;
+	text-align: center;
+	
+}
+
+/*W3 Schools. (n.d.). How TO - Register Form. Retrieved April 4, 2019, from https://www.w3schools.com/howto/howto_css_register_form.asp*/
+
+.register input[type=text],input[type=password] {
+	width: 80%;
+	padding: 17px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+.register input[type=text]:focus,input[type=password]:focus{
+	background-color: #e8e8e8;
+	outline: none;
+}
+
+p#select{
+	display: inline;
+}
+
+.profile-info{
+	position: relative;
+}
+
+
+profile-info img#background{
+	position: absolute;
+}
+
+.profile-text{
+	position: absolute;
+	margin: 50px 5%;
+	text-align: center;
+	width: 90%;
+	bottom: 900px;
+	background-color: white;
+}
+
+img#avatar{
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+}
+
+.person{
+	float: right;
+	width: 65%;
+	text-align: left;
+	margin-left: 50px;
+}
+
+.person h2{
+	text-align: left;
+	font-size: 20pt;
+}
+
+.person p#ideal{
+	font-size: 14pt;
+}
+
+.person button{
+	font-size: 12pt;
+	color: white;
+}
+
+.profile-text{
+	padding-bottom: 50px;
+	
+}
+/*W3 Schools. (n.d.). How TO - CSS/JS Modal. Retrieved April 22, 2019, from https://www.w3schools.com/howto/howto_css_modals.asp*/
+.contact-form{
+	background-color: white;
+	width: 60%;
+	padding: 20px;
+	margin: 5% auto;
+	text-align: center;
+}
+
+.contact-form input[type="text"], input[type="email"]{
+	width: 70%;
+	padding: 12px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+.contact-form textarea{
+	width: 70%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding: 12px;
+	background-color: #f1f1f1;
+	font-size: 12pt;
+	border: none;
+}
+
+.contact{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+#close{
+	float: right;
+	font-size: 28px;
+}
+
+.space2{
+	height: 300px;
+}
+
+/*W3 Schools. (n.d.). CSS Backgrounds. Retrieved April 22, 2019, from https://www.w3schools.com/css/css_background.asp*/
+/*Deep Run Photography Club. (n.d.). Deep Run High School [Digital image]. Retrieved April 22, 2019.*/
+#pg_background{
+	background-image: url("DeepRunPhoto.JPG");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.person-paragraph{
+	float: right;
+	width: 60%;
+	background-color: white;
+	margin-top: 10px;
+	margin-right: 20px;
+        text-align: center;
+}
+
+.name{
+	float: left;
+	background-color: white;
+	text-align: center;
+	clear: both;
+	margin-left: 20px;
+        margin-top: 10px;
+}
+
+button#open{
+    color: white;
+}
+
+.header{
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: both;
+}
+
+button#edit{
+    float: left;
+}
+
+button#logout{
+    float: right;
+}
+
+.edit{
+	background-color: white;
+	width: 80%;
+	padding: 20px;
+	margin: 5% auto;
+        text-align: center;
+}
+
+
+.edit textarea{
+	width: 70%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	padding: 12px;
+	background-color: #f1f1f1;
+	font-size: 12pt;
+	border: none;
+}
+
+#name a{
+    color: #013289;
+    text-decoration: none;
+}
+
+#name a:hover{
+    opacity: 0.7;
+}
+
+.edit input[type="text"]{
+	width: 70%;
+	padding: 12px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+/*https://www.w3schools.com/howto/howto_css_profile_card.asp*/
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+    margin: auto 10px;
+}
+
+.users{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.user-info{
+    width: 90%;
+    margin-left: 20px;
+}
+
+.users img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% 10%;
+}
+
+.admin{
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.admin input[type="text"]{
+	width: 50%;
+	padding: 16px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+.admin button{
+    padding: 12px;
+}
+
+/*CSS Tables. (n.d.). Retrieved April 20, 2019, from https://www.w3schools.com/css/css_table.asp*/
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+tr:hover{
+    background-color: #e5e5e5;
+}
+
+#checkbox{
+    display: inline;
+}
+
+.users input[type="text"]{
+	width: 70%;
+	padding: 12px;
+	margin: 5px 0 22px 0;
+	display: block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+
