@@ -37,4 +37,7 @@ Signup and Login Page
 
 **Screenshots**
 ![Image of Homepage](Screenshots/Homepage.png)
+Home Page
 
+![Image of Profile](Screenshots/Profile Page.png)
+Profile Page
