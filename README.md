@@ -2,6 +2,9 @@
 
 [Website Video](https://drive.google.com/file/d/1eWtxcMQJicXPfYVwvoVeuplQyxaCLVQ6/view)
 
+![Image of Homepage](Screenshots/Homepage.png)
+Home Page
+
 **Description**
 
 This was a website that I created along with five other students at Deep Run High School for the Center for Information Technology (CIT) internship program. The website allows users to find out what the internship program is and its supporting staff. Furthermore, students will be able to create a profile of themselves with their interests, work experience, and skills. Employers will then be able to use the website to connect with students. The website is written in HTML, CSS, Javascript, and PHP and is designed to be hosted on a WAMP (Windows, Apache, MySQL, and PHP) server. It makes use of the PHP mailer library.
@@ -35,9 +38,4 @@ Signup and Login Page
 * The employer message will display in the email that the student signed up with
 * Students can select "I have an internship" to hide their profile
 
-**Screenshots**
-![Image of Homepage](Screenshots/Homepage.png)
-Home Page
 
-![Image of Profile](Screenshots/Profile Page.png)
-Profile Page
