@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, li, p{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+h2{
+	text-align:center;
+	color: #013289;
+}
+
+body{
+	margin: 0;
+	background-image: url("DeepRunPhoto.jpg");
+        background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+nav{
+	background-color: white;
+}
+
+/*Gray, J. (2015, July 3). CSS / HTML Navigation and Logo on same line. Retrieved April 1, 2019, from https://stackoverflow.com/questions/30624709/css-html-navigation-and-logo-on-same-line*/
+
+/*W3 Schools. (n.d.). CSS Navigation Bar. Retrieved April 1, 2019, from https://www.w3schools.com/css/css_navbar.asp*/
+
+nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+nav li{
+	display: inline;
+}
+
+nav li a{
+	text-decoration: none;
+	color: black;
+	padding: 14px 16px;
+	float: right;
+	transition: 0.5s ease;
+}
+
+nav li a:after{
+	clear: both;
+}
+
+
+nav li a:hover{
+	color: #013289;
+}
+
+
+#pgname{
+	float:left;
+	padding-left: 30px;
+	font-size: 14pt;
+}
+
+#pgname:after{
+	clear: both;
+}
+
+
+#citlogo{
+	margin-top: 5px;
+	float: left;
+}
+
+/*
+#citlogo:after{
+	clear: both;
+}*/
+
+.search h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 40pt;
+	
+}
+
+#searchbox{ 
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.cse .gsc-control-cse,
+			.gsc-control-cse {
+			  background-color:transparent !important;
+				border: none !important;
+			}
+
+.column{
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.column2{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.paragraph{
+	text-align: center;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.title{
+	text-align: center;
+	color: #013289;
+}
+
+.mission{
+	position: relative;
+}
+
+.mission img{
+	position: absolute;
+}
+
+.mission .statement{
+	position: absolute;
+	margin: 200px 10%;
+	text-align: center;
+	width: 80%;
+}
+
+.statement{
+	text-align: center;
+	width: 90%;
+	background-color: rgba(255,251,251,0.9);
+	height: 300px;	
+}
+
+.statement p{
+	font-size: 14pt
+}
+
+button a{
+	text-decoration: none;
+	color: white;
+}
+
+button{
+	background-color: #013289;
+	padding: 16px 33px;
+	font-size: 14pt;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	display: inline-block;
+	border: none;
+	opacity: 1;
+}
+
+button:hover{
+	opacity: 0.9;
+}
+
+.space{
+	height: 700px;
+}
+
+.loginform{
+	margin: 0 auto;
+	text-align: center;
+	width: 200px;
+	border-color: gray;
+	border-width: 1px;
+}
+/*
+.banner{
+	position: relative;
+	text-align: center;
+	color: white;
+}*/
+
+.banner h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 40pt;
+	color: white;
+}
+
+.sidenav{
+	margin-left: 10px;
+}
+
+.sidenav ul{
+	display: block;
+	float: left;
+	list-style-type: none;
+	background-color: #e5e5e5;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+.sidenav ul li a{
+	display: block;
+	color: black;
+	width: 100px;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.sidenav ul li a:hover{
+	background-color: #013289;
+	color: white;
+}
+
+.paragraphs{
+	margin-left: 180px;
+	width: 80%;
+}
+
+#download{
+	text-align: center;
+}
+
+.body{
+	text-align: center;
+}
+
+.profile {
+  width: 100%;
+  margin-left: 60px;
+}
+
+#experience ul>li{
+	list-style-type: none;
+}
+
+
+label{
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.register {
+	position: absolute;
+	margin: 50px 10%;
+	background-color: white;
+	width: 80%;
+	text-align: center;
+	
+}
+
+/*W3 Schools. (n.d.). How TO - Register Form. Retrieved April 4, 2019, from https://www.w3schools.com/howto/howto_css_register_form.asp*/
+
+.register input[type=text],input[type=password] {
+	width: 80%;
+	padding: 17px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+	font-size: 12pt;
+}
+
+.register input[type=text]:focus,input[type=password]:focus{
+	background-color: #e8e8e8;
+	outline: none;
+}
+
+p#select{
+	display: inline;
+}
