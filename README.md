@@ -35,4 +35,6 @@ Signup and Login Page
 * The employer message will display in the email that the student signed up with
 * Students can select "I have an internship" to hide their profile
 
+**Screenshots**
+![Image of Homepage](Screenshots/Homepage.png)
 
