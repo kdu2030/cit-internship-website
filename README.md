@@ -1,6 +1,5 @@
 # CIT Internship Website
 
-[Website Video](https://drive.google.com/file/d/1eWtxcMQJicXPfYVwvoVeuplQyxaCLVQ6/view)
 
 ![Image of Homepage](Screenshots/Homepage.png)
 
